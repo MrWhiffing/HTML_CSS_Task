@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: green;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: grey; /* Change even rows to grey */
+}
+
+tr:nth-child(odd) {
+    background-color: white; /* Change odd rows to white */
+}
